@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>macosx@mozilla.js</em:id>
+        <em:version>0.0.0.1</em:version>
+        <em:type>2</em:type>
+        <!-- Firefox GUID -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>18.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <!-- Thunderbird GUID -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>18.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetPlatform>Darwin</em:targetPlatform>
+        <em:name>JavaScript-Cocoa Bridge Demo</em:name>
+        <em:description>Extension demonstrates JavaScript-Cocoa Bridge for Mac OS X</em:description>
+        <em:creator>vachooho</em:creator>
+        <em:bootstrap>true</em:bootstrap>
+    </Description>
+</RDF>
