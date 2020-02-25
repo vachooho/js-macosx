@@ -1,6 +1,6 @@
 # Importing System Frameworks #
 
-Mac OS X uses frameworks to distribute shared code and resources, such as the interfaces to the operating system itself. For OS X software developers the guideline for including header files and linking with system software is straightforward: add the framework to your project and include the top-level header file in your source files. For js-macosx bridge, the similar "include" feature is done using _importFramework_ function:
+macOS uses frameworks to distribute shared code and resources, such as the interfaces to the operating system itself. For OS X software developers the guideline for including header files and linking with system software is straightforward: add the framework to your project and include the top-level header file in your source files. For js-macosx bridge, the similar "include" feature is done using _importFramework_ function:
 
 ```
 macosx.importFramework("Cocoa");
@@ -36,7 +36,7 @@ with (macosx) {
     CFRelease(format);
 }
 ```
-We just logged the name and version of the host application in the system log file, from JavaScript. Cool huh?!
+We just logged the name and version of the host application in the system log file, from JavaScript. Cool eh?!
 
 Here is more: one of many possible ways to convert CoreFoundation string into JavaScript string.
 ```
