@@ -7,4 +7,4 @@
   * No automatic unloading for libraries and frameworks.
   * https://bugzilla.mozilla.org/show_bug.cgi?id=556097
 
-I wrote this bridge over past two weekends, didn't have much time to test it completely.
+I wrote this bridge over past two weekends, didn't have much time to completely test it.
