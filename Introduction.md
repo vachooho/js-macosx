@@ -5,7 +5,7 @@ Mozilla's JavaScript is the most advanced JavaScript engine. It includes number 
 
 One of those is js-ctypes API, which allows application and extension code to call back and forth to native code in binary format. Js-ctypes can load libraries, construct types, and perform miscellaneous tasks like type-casting. This API also provides numerous predefined types that correspond to primitives and common typedefs in C.
 
-That's cool! Well, that's what I thought too, until I got the real task to take care of on Mac OS X. The amount of code I had to write in JavaScript was huge and the result didn't look neither nice nor elegant.
+That's cool! Well, that's what I thought too, until I got the real task to take care of on macOS. The amount of code I had to write in JavaScript was huge and the result didn't look neither nice nor elegant.
 Besides, I thought it should all be automatic!
 
 This is where Apple's BridgeSupport comes in handy.
