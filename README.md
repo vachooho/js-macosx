@@ -1,5 +1,5 @@
 # js-macosx
-## Mozilla JavaScript-Cocoa Bridge for macO ##
+## Mozilla JavaScript-Cocoa Bridge for macOS ##
 
 Lightweight bridge for calling Cocoa frameworks from Mozilla JavaScript, js-macosx transparently handles definition of Cocoa API, both C and Objective-C, and provides automatic declarations for framework functions, structures, constants and enumerations, as well as allows creating and subclassing Cocoa classes.
 
