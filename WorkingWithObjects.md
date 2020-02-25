@@ -30,7 +30,7 @@ with (macosx) {
 }
 ```
 
-The code below demonstrates the use ScriptingBridge framework from js-macosx bridge:
+The code below demonstrates the use of the ScriptingBridge framework from js-macosx bridge:
 ```
 with (macosx) {
     // importFramework("ScriptingBridge", false);
